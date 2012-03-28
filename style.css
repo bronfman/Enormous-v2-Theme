@@ -1,13 +1,3 @@
-/*   
-Theme Name: Upstart Blogger Enormous
-Theme URI: http://www.upstartblogger.com
-Description: A high impact wordpress theme from <a href="http://www.upstartblogger.com/" title="Upstart Blogger">Upstart Blogger</a>. 
-Author: Ashley Morgan
-Author URI: http://www.upstartblogger.com
-Version: 0.1
-License: Creative Commons Attribution-Share Alike 3.0 (http://creativecommons.org/licenses/by-sa/3.0/). Feel free to make any changes, but please keep a link back to Upstart Blogger in your sidebar or footer.
-*/
-
 body {
 	background-color: #FFFFFF;
 	font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
@@ -24,8 +14,6 @@ body {
 	padding-left: 0px;
 }
 
-
-
 .clean {
 	border-top-width: 0px;
 	border-right-width: 0px;
@@ -40,15 +28,11 @@ body {
 }
 
 a:hover clean {
-border: none
-		
-		
-              
-
+	border: none;
 }
 
 a:hover img {
-border: none
+	border: none;
 }
 
 .headerimage {
@@ -57,7 +41,7 @@ border: none
 }
 
 a:link img, a:visited img, a:active img {
-	border: 3px solid #000000;
+	border: 3px solid #AD0;
 }  
 
 #container {
@@ -79,7 +63,7 @@ a:link img, a:visited img, a:active img {
 	padding-right: 0px;
 	padding-bottom: 25px;
 	padding-left: 0;
-	}
+}
 
 #sidebar {
 	width: 306px;
@@ -92,7 +76,7 @@ a:link img, a:visited img, a:active img {
 	margin-top: -40px;
 	padding-bottom: 0px;
 	margin-bottom: 150px;
-	}
+}
 
 #sidebarleft {
 	width:150px;
@@ -116,13 +100,14 @@ a:link img, a:visited img, a:active img {
 	width: 600px;
 	float: left;
 	margin-left: 0px;
-	}
+}
 
 .linktext {
 	font-size:9px;
 	margin-left:5%;
 	margin-right:5%;
 }
+
 .linktextarea {
 	font-size:9px;
 	font-family:verdana;
@@ -132,21 +117,20 @@ a:link img, a:visited img, a:active img {
 ul {
 	margin: 2em;
 }
+
 ul li {
 	margin-bottom: 0.5em;
 }
+
 .post {
 	margin-bottom: 1em;
 }
-
-
-
 
 a {
 	text-decoration: none;
 	border-bottom-width: 3px;
 	border-bottom-style: solid;
-	border-bottom-color: #FFFF66;
+	border-bottom-color: #AD0;
 	color: #000000;
 	font-weight: bold;
 }
@@ -263,7 +247,6 @@ h6 {
 	line-height: 1.4em;
 }
 
-
 blockquote {
 	background-color: #FFFF66;
 	margin-top: 0px;
@@ -279,7 +262,6 @@ blockquote {
 	padding-bottom: 1px;
 	text-transform: lowercase;
 }
-
 
 
 /* Begin Comments*/
@@ -360,6 +342,7 @@ small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockqu
 }
 
 /* End Comments */
+
 .headerimagefont {
 	margin-top: 40px;
 	padding: 0px;
