@@ -1,0 +1,379 @@
+/*   
+Theme Name: Upstart Blogger Enormous
+Theme URI: http://www.upstartblogger.com
+Description: A high impact wordpress theme from <a href="http://www.upstartblogger.com/" title="Upstart Blogger">Upstart Blogger</a>. 
+Author: Ashley Morgan
+Author URI: http://www.upstartblogger.com
+Version: 0.1
+License: Creative Commons Attribution-Share Alike 3.0 (http://creativecommons.org/licenses/by-sa/3.0/). Feel free to make any changes, but please keep a link back to Upstart Blogger in your sidebar or footer.
+*/
+
+body {
+	background-color: #FFFFFF;
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+	font-size: 1em;
+	line-height: 1.6;
+	color: #000000;
+	background-repeat: repeat-x;
+	background-position: top;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+}
+
+
+
+.clean {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 3px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #FFFFFF;              
+
+}
+
+a:hover clean {
+border: none
+		
+		
+              
+
+}
+
+a:hover img {
+border: none
+}
+
+.headerimage {
+	margin-top: 40px;
+	padding: 0px;
+}
+
+a:link img, a:visited img, a:active img {
+	border: 3px solid #000000;
+}  
+
+#container {
+	width: 960px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+#entrypage {
+	font-size: .9em;
+	line-height: 1.4em;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 25px;
+	padding-left: 0;
+	}
+
+#sidebar {
+	width: 306px;
+	float: right;
+	font-size: 1em;
+	line-height: 1.6;
+	text-align: left;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: -40px;
+	padding-bottom: 0px;
+	margin-bottom: 150px;
+	}
+
+#sidebarleft {
+	width:150px;
+	float: left;
+}
+
+#sidebarright {
+	width: 150px;
+	float: right;
+}
+
+#footer {
+	width:960px;
+	float: none;
+	clear: both;
+	font-size: 1em;
+	padding-top: 0px;
+}
+
+#entries {
+	width: 600px;
+	float: left;
+	margin-left: 0px;
+	}
+
+.linktext {
+	font-size:9px;
+	margin-left:5%;
+	margin-right:5%;
+}
+.linktextarea {
+	font-size:9px;
+	font-family:verdana;
+	overflow:hidden;
+}
+
+ul {
+	margin: 2em;
+}
+ul li {
+	margin-bottom: 0.5em;
+}
+.post {
+	margin-bottom: 1em;
+}
+
+
+
+
+a {
+	text-decoration: none;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFF66;
+	color: #000000;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #000000;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+}
+
+
+
+ul {
+	list-style: none;
+	text-transform: lowercase;
+	padding: 0px;
+	margin: 0px;
+}
+
+li. ul li {
+	margin-bottom: 0.692em;
+}
+
+
+
+li.linkcat {
+	list-style-type: none;
+}
+
+
+
+.imgleft {
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.imgright {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+img.frame {
+	padding: 2px;
+	border: solid 1px #DEE4E5;
+}
+
+
+
+h1 {
+	font-size: 1em;
+	line-height: 1em;
+	text-transform: lowercase;
+	text-align: left;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	font-variant: normal;
+	letter-spacing: -4px;
+	margin-bottom: 50px;
+	margin-top: 0px;
+}
+
+
+
+.title {
+	border-bottom: 1px solid silver;
+}
+
+
+h3 {
+	font-weight: bold;
+	font-size: 2.5em;
+	text-transform: lowercase;
+	margin-top: 1em;
+	color: #000000;
+	text-align: left;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000000;
+	font-style: normal;
+	font-variant: normal;
+	letter-spacing: -2px;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-weight: bold;
+	text-transform: lowercase;
+	color: #000000;
+	font-style: normal;
+	font-size: 2.5em;
+	line-height: 1.4;
+}
+
+h5 {
+	font-weight: bold;
+	text-transform: lowercase;
+	color: #000000;
+	font-style: normal;
+	font-size: 2.5em;
+	line-height: 1.4em;
+}
+
+h6 {
+	font-weight: bold;
+	text-transform: lowercase;
+	margin-bottom: 0.2em;
+	margin-top: 2em;
+	color: #000000;
+	font-size: 2.5em;
+	line-height: 1.4em;
+}
+
+
+blockquote {
+	background-color: #FFFF66;
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 1.25em;
+	line-height: 1.4;
+	font-weight: bold;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-transform: lowercase;
+}
+
+
+
+/* Begin Comments*/
+
+.comments_tiny {
+	color: #b8b8b8;
+	border-bottom: 1px solid silver;
+}
+
+.alt {
+	margin: 0;
+	padding: 0px;
+}
+
+.commentlist {
+	margin-top: 0px;
+
+}
+
+.commentlist li {
+	font-weight: bold;
+	margin-top: 5px;
+	margin-right: 0;
+	margin-left: 0px;
+}
+
+.commentlist p {
+	margin: 0px 5px 0px 0;
+}
+
+#commentform p {
+	margin: 5px 0;
+}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+}
+
+li.comment {
+	font-weight: bold;
+	padding: 0px;
+	list-style: none;
+}
+
+.commentlist p {
+	font-weight: normal;
+	text-transform: none;
+}
+
+#commentform {
+	margin-top: 30px;
+}
+
+.commentmetadata {
+	font-weight: normal;
+}
+
+small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
+	color: #000000;
+}
+
+.content {
+	margin-bottom: 25px;
+	padding-left: 0px;
+	font-weight: normal;
+}
+
+.commentbox {
+	width: 100%;
+	height: 100px;
+}
+
+/* End Comments */
+.headerimagefont {
+	margin-top: 40px;
+	padding: 0px;
+	margin-bottom: -5px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 3px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #FFFF66;
+	border-left-color: #000000;
+}
